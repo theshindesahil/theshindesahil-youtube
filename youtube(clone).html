@@ -1,0 +1,955 @@
+<!-- 
+The display property is used to change the property of inline,inline-block and block elements. (See this in css file)
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>theshindesahil-Youtube (Clone)</title>
+    <link rel="stylesheet" href="Styles/general.css">
+    <link rel="stylesheet" href="Styles/header.css">
+    <link rel="stylesheet" href="Styles/Bars.css">
+    <link rel="stylesheet" href="Styles/video.css">
+
+</head>
+    <body>
+        <header class="header">
+            <div class="left-section">
+                <img class="youtube-logo" src="Icons/youtube-logo.svg" alt="">
+            </div>
+            <div class="middle-section">
+                <input class="search-bar" type="text" placeholder="Search">
+                <button class="search-button">
+                    <img class="search-button-image" src="Icons/search.svg" alt="">
+                    <div class="tooltip">
+                        Search
+                    </div>
+                </button>
+                <button class="voice-search-button">
+                    <img class="voice-search-image" src="Icons/voice-search-icon.svg" alt="">
+                    <div class="tooltip">
+                        Search with your voice
+                    </div>
+                </button>
+            </div>
+            <div class="right-section">
+                <div class="upload-icon">
+                    <img class="upload-icon-image" src="Icons/upload.svg" alt="">
+                    <div class="tooltip">
+                        Upload
+                    </div>
+                </div>
+                <div class="notification-icon">
+                    <img class="notification-icon-image" src="Icons/notifications.svg" alt="">
+                    <div class="notification-number">13</div>
+                    <div class="tooltip">
+                        Notifications
+                    </div>
+                </div>
+                <div class="avatar-icon">
+                    <img class="avatar-icon-image" src="Icons/Avatar-image.jpg" alt="">
+                    <div class="tooltip">
+                        theshindesahil
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <nav class="nav-bar">
+            <div class="nav-bar-elements">All</div>
+            <div class="nav-bar-elements">Mixes</div>
+            <div class="nav-bar-elements">Computer Programming</div>
+            <div class="nav-bar-elements">Gaming</div>
+            <div class="nav-bar-elements">Live</div>
+            <div class="nav-bar-elements">Music</div>
+            <div class="nav-bar-elements">Gadgets</div>
+            <div class="nav-bar-elements">Game Shows</div>
+            <div class="nav-bar-elements">Podcasts</div>
+            <div class="nav-bar-elements">Cars</div>
+            <div class="nav-bar-elements">Recently uploaded</div>
+            <div class="nav-bar-elements">Watched</div>
+            <div class="nav-bar-elements">New to you</div>
+        </nav>
+
+        <nav class="sidebar">
+            <div class="ham-menu">
+                <img class="ham-menu-image" src="Icons/hamburger-menu.svg" alt="">
+            </div>
+            <div class="sidebar-links">
+                <img src="Icons/home.svg" alt="">Home
+            </div>
+            <div class="sidebar-links">
+                <img src="Icons/youtube-music.svg" alt="">Music
+            </div>
+            <div class="sidebar-links">
+                <img src="Icons/subscriptions.svg" alt="">Subscriptions
+            </div>
+            <div class="sidebar-links">
+                <img src="Icons/library.svg" alt="">You
+            </div>
+        </nav>
+
+        <main>
+            <section class="video-grid">
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <img class="thumbnail" src="Thumbnails/thumbnail-1.webp"> <!-- img element is also a void element -->
+                        <div class="video-time">
+                            6:11:25
+                        </div>
+                    </div>
+                    <div class="channel-info">
+                        <div class="channel-pictures">
+                            <img class="profile-pics" src="Chanel Profile Pics/profile-1.jpg" alt="">
+                        </div>
+                        <div class="channel-description">
+                            <p class="video-title">
+                                HTML & CSS Full Course - Beginner to Pro
+                            </p>
+                            <p class="video-author">
+                                SuperSimpleDev
+                            </p>
+                            <p class="video-views">
+                                77 lakh views &#183 1 year ago
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <img class="thumbnail" src="Thumbnails/thumbnail-2.webp"> <!-- img element is also a void element -->
+                        <div class="video-time">
+                            11:30
+                        </div>
+                    </div>
+                    <div class="channel-info">
+                        <div class="channel-pictures">
+                            <img class="profile-pics" src="Chanel Profile Pics/profile-2.jpg" alt="">
+                        </div>
+                        <div class="channel-description">
+                            <p class="video-title">
+                                I Spent 24 Hours In A Doomsday Bunker
+                            </p>
+                            <p class="video-author">
+                                MrBeast
+                            </p>
+                            <p class="video-views">
+                                19 crore views &#183
+                                3 years ago
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <img class="thumbnail" src="Thumbnails/thumbnail-3.webp"> <!-- img element is also a void element -->
+                        <div class="video-time">
+                            17:56
+                        </div>
+                    </div>
+                    <div class="channel-info">
+                        <div class="channel-pictures">
+                            <img class="profile-pics" src="Chanel Profile Pics/profile-3.jpg" alt="">
+                        </div>
+                        <div class="channel-description">
+                            <p class="video-title">
+                                Laptop Buying Experience At Offline Store Ft. Dehradun
+                            </p>
+                            <p class="video-author">
+                                VenomsTech
+                            </p>
+                            <p class="video-views">
+                                7K views &#183 2 hours ago
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <img class="thumbnail" src="Thumbnails/thumbnail-4.webp"> <!-- img element is also a void element -->
+                        <div class="video-time">
+                            40:13
+                        </div>
+                    </div>
+                    <div class="channel-info">
+                        <div class="channel-pictures">
+                            <img class="profile-pics" src="Chanel Profile Pics/profile-4.jpg" alt="">
+                        </div>
+                        <div class="channel-description">
+                            <p class="video-title">
+                                Is Gujarat model a Miracle or a Disaster? : Indian Governance case study.                    </p>
+                            <p class="video-author">
+                                Think School
+                            </p>
+                            <p class="video-views">
+                                2 lakh views
+                                &#183 15 hours ago
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <img class="thumbnail" src="Thumbnails/thumbnail-5.webp"> <!-- img element is also a void element -->
+                        <div class="video-time">
+                            9:40
+                        </div>
+                    </div>
+                    <div class="channel-info">
+                        <div class="channel-pictures">
+                            <img class="profile-pics" src="Chanel Profile Pics/profile-5.jpg" alt="">
+                        </div>
+                        <div class="channel-description">
+                            <p class="video-title">
+                                A Galactic Misfire of Zack Snyder ⋮ REBEL MOON: PART ONE - A CHILD OF FIRE                    </p>
+                            <p class="video-author">
+                                PJ Explained
+                            </p>
+                            <p class="video-views">
+                                6.9K views &#183 18 minutes ago
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <img class="thumbnail" src="Thumbnails/thumbnail-6.webp"> <!-- img element is also a void element -->
+                        <div class="video-time">
+                            15:45
+                        </div>
+                    </div>
+                    <div class="channel-info">
+                        <div class="channel-pictures">
+                            <img class="profile-pics" src="Chanel Profile Pics/profile-6.jpg" alt="">
+                        </div>
+                        <div class="channel-description">
+                            <p class="video-title">
+                                All Smartphone Brands Review in India - 2023 Reality!                    </p>
+                            <p class="video-author">
+                                Gyan Therapy
+                            </p>
+                            <p class="video-views">
+                                2.6 lakh views &#183 14 hours ago
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <img class="thumbnail" src="Thumbnails/thumbnail-7.webp"> <!-- img element is also a void element -->
+                        <div class="video-time">
+                            12:00
+                        </div>
+                    </div>
+                    <div class="channel-info">
+                        <div class="channel-pictures">
+                            <img class="profile-pics" src="Chanel Profile Pics/profile-7.jpg" alt="">
+                        </div>
+                        <div class="channel-description">
+                            <p class="video-title">
+                                Is it normal to talk to yourself?                    </p>
+                            <p class="video-author">
+                                TED-Ed
+                            </p>
+                            <p class="video-views">
+                                37 lakh views &#183 7 months ago
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <img class="thumbnail" src="Thumbnails/thumbnail-8.webp"> <!-- img element is also a void element -->
+                        <div class="video-time">
+                            30:04
+                        </div>
+                    </div>
+                    <div class="channel-info">
+                        <div class="channel-pictures">
+                            <img class="profile-pics" src="Chanel Profile Pics/profile-8.jpg" alt="">
+                        </div>
+                        <div class="channel-description">
+                            <p class="video-title">
+                                Lucky Block Staff - Animation vs. Minecraft Shorts Ep 33                    </p>
+                            <p class="video-author">
+                                Alan Becker        
+                            </p>
+                            <p class="video-views">
+                                49 lakh views &#183 1 day ago
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <img class="thumbnail" src="Thumbnails/thumbnail-9.webp"> <!-- img element is also a void element -->
+                        <div class="video-time">
+                            12:09
+                        </div>
+                    </div>
+                    <div class="channel-info">
+                        <div class="channel-pictures">
+                            <img class="profile-pics" src="Chanel Profile Pics/profile-9.jpg" alt="">
+                        </div>
+                        <div class="channel-description">
+                            <p class="video-title">
+                                Cooking Challenge vs My Girlfriend                    </p>
+                            <p class="video-author">
+                                Nick DiGiovanni
+                            </p>
+                            <p class="video-views">
+                                54 lakh views &#183 6 months ago
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <img class="thumbnail" src="Thumbnails/thumbnail-1.webp"> <!-- img element is also a void element -->
+                        <div class="video-time">
+                            6:11:25
+                        </div>
+                    </div>
+                    <div class="channel-info">
+                        <div class="channel-pictures">
+                            <img class="profile-pics" src="Chanel Profile Pics/profile-1.jpg" alt="">
+                        </div>
+                        <div class="channel-description">
+                            <p class="video-title">
+                                HTML & CSS Full Course - Beginner to Pro
+                            </p>
+                            <p class="video-author">
+                                SuperSimpleDev
+                            </p>
+                            <p class="video-views">
+                                77 lakh views &#183 1 year ago
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <img class="thumbnail" src="Thumbnails/thumbnail-2.webp"> <!-- img element is also a void element -->
+                        <div class="video-time">
+                            11:30
+                        </div>
+                    </div>
+                    <div class="channel-info">
+                        <div class="channel-pictures">
+                            <img class="profile-pics" src="Chanel Profile Pics/profile-2.jpg" alt="">
+                        </div>
+                        <div class="channel-description">
+                            <p class="video-title">
+                                I Spent 24 Hours In A Doomsday Bunker
+                            </p>
+                            <p class="video-author">
+                                MrBeast
+                            </p>
+                            <p class="video-views">
+                                19 crore views &#183
+                                3 years ago
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <img class="thumbnail" src="Thumbnails/thumbnail-3.webp"> <!-- img element is also a void element -->
+                        <div class="video-time">
+                            17:56
+                        </div>
+                    </div>
+                    <div class="channel-info">
+                        <div class="channel-pictures">
+                            <img class="profile-pics" src="Chanel Profile Pics/profile-3.jpg" alt="">
+                        </div>
+                        <div class="channel-description">
+                            <p class="video-title">
+                                Laptop Buying Experience At Offline Store Ft. Dehradun
+                            </p>
+                            <p class="video-author">
+                                VenomsTech
+                            </p>
+                            <p class="video-views">
+                                7K views &#183 2 hours ago
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <img class="thumbnail" src="Thumbnails/thumbnail-4.webp"> <!-- img element is also a void element -->
+                        <div class="video-time">
+                            40:13
+                        </div>
+                    </div>
+                    <div class="channel-info">
+                        <div class="channel-pictures">
+                            <img class="profile-pics" src="Chanel Profile Pics/profile-4.jpg" alt="">
+                        </div>
+                        <div class="channel-description">
+                            <p class="video-title">
+                                Is Gujarat model a Miracle or a Disaster? : Indian Governance case study.                    </p>
+                            <p class="video-author">
+                                Think School       
+                            </p>
+                            <p class="video-views">
+                                2 lakh views
+                                &#183 15 hours ago
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <img class="thumbnail" src="Thumbnails/thumbnail-5.webp"> <!-- img element is also a void element -->
+                        <div class="video-time">
+                            9:40
+                        </div>
+                    </div>
+                    <div class="channel-info">
+                        <div class="channel-pictures">
+                            <img class="profile-pics" src="Chanel Profile Pics/profile-5.jpg" alt="">
+                        </div>
+                        <div class="channel-description">
+                            <p class="video-title">
+                                A Galactic Misfire of Zack Snyder ⋮ REBEL MOON: PART ONE - A CHILD OF FIRE                    </p>
+                            <p class="video-author">
+                                PJ Explained
+                            </p>
+                            <p class="video-views">
+                                6.9K views &#183 18 minutes ago
+                            </p>
+                        </div>
+                    </div>
+                </div>
+        
+        
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <img class="thumbnail" src="Thumbnails/thumbnail-6.webp"> <!-- img element is also a void element -->
+                        <div class="video-time">
+                            15:45
+                        </div>
+                    </div>
+                    <div class="channel-info">
+                        <div class="channel-pictures">
+                            <img class="profile-pics" src="Chanel Profile Pics/profile-6.jpg" alt="">
+                        </div>
+                        <div class="channel-description">
+                            <p class="video-title">
+                                All Smartphone Brands Review in India - 2023 Reality!                    </p>
+                            <p class="video-author">
+                                Gyan Therapy
+                            </p>
+                            <p class="video-views">
+                                2.6 lakh views &#183 14 hours ago
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <img class="thumbnail" src="Thumbnails/thumbnail-7.webp"> <!-- img element is also a void element -->
+                        <div class="video-time">
+                            12:00
+                        </div>
+                    </div>
+                    <div class="channel-info">
+                        <div class="channel-pictures">
+                            <img class="profile-pics" src="Chanel Profile Pics/profile-7.jpg" alt="">
+                        </div>
+                        <div class="channel-description">
+                            <p class="video-title">
+                                Is it normal to talk to yourself?                    </p>
+                            <p class="video-author">
+                                TED-Ed
+                            </p>
+                            <p class="video-views">
+                                37 lakh views &#183 7 months ago
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <img class="thumbnail" src="Thumbnails/thumbnail-8.webp"> <!-- img element is also a void element -->
+                        <div class="video-time">
+                            30:04
+                        </div>
+                    </div>
+                    <div class="channel-info">
+                        <div class="channel-pictures">
+                            <img class="profile-pics" src="Chanel Profile Pics/profile-8.jpg" alt="">
+                        </div>
+                        <div class="channel-description">
+                            <p class="video-title">
+                                Lucky Block Staff - Animation vs. Minecraft Shorts Ep 33                    </p>
+                            <p class="video-author">
+                                Alan Becker        
+                            </p>
+                            <p class="video-views">
+                                49 lakh views &#183 1 day ago
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <img class="thumbnail" src="Thumbnails/thumbnail-9.webp"> <!-- img element is also a void element -->
+                        <div class="video-time">
+                            12:09
+                        </div>
+                    </div>
+                    <div class="channel-info">
+                        <div class="channel-pictures">
+                            <img class="profile-pics" src="Chanel Profile Pics/profile-9.jpg" alt="">
+                        </div>
+                        <div class="channel-description">
+                            <p class="video-title">
+                                Cooking Challenge vs My Girlfriend                    </p>
+                            <p class="video-author">
+                                Nick DiGiovanni
+                            </p>
+                            <p class="video-views">
+                                54 lakh views &#183 6 months ago
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <img class="thumbnail" src="Thumbnails/thumbnail-1.webp"> <!-- img element is also a void element -->
+                        <div class="video-time">
+                            6:11:25
+                        </div>
+                    </div>
+                    <div class="channel-info">
+                        <div class="channel-pictures">
+                            <img class="profile-pics" src="Chanel Profile Pics/profile-1.jpg" alt="">
+                        </div>
+                        <div class="channel-description">
+                            <p class="video-title">
+                                HTML & CSS Full Course - Beginner to Pro
+                            </p>
+                            <p class="video-author">
+                                SuperSimpleDev
+                            </p>
+                            <p class="video-views">
+                                77 lakh views &#183 1 year ago
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <img class="thumbnail" src="Thumbnails/thumbnail-2.webp"> <!-- img element is also a void element -->
+                        <div class="video-time">
+                            11:30
+                        </div>
+                    </div>
+                    <div class="channel-info">
+                        <div class="channel-pictures">
+                            <img class="profile-pics" src="Chanel Profile Pics/profile-2.jpg" alt="">
+                        </div>
+                        <div class="channel-description">
+                            <p class="video-title">
+                                I Spent 24 Hours In A Doomsday Bunker
+                            </p>
+                            <p class="video-author">
+                                MrBeast
+                            </p>
+                            <p class="video-views">
+                                19 crore views &#183
+                                3 years ago
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <img class="thumbnail" src="Thumbnails/thumbnail-3.webp"> <!-- img element is also a void element -->
+                        <div class="video-time">
+                            17:56
+                        </div>
+                    </div>
+                    <div class="channel-info">
+                        <div class="channel-pictures">
+                            <img class="profile-pics" src="Chanel Profile Pics/profile-3.jpg" alt="">
+                        </div>
+                        <div class="channel-description">
+                            <p class="video-title">
+                                Laptop Buying Experience At Offline Store Ft. Dehradun
+                            </p>
+                            <p class="video-author">
+                                VenomsTech
+                            </p>
+                            <p class="video-views">
+                                7K views &#183 2 hours ago
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <img class="thumbnail" src="Thumbnails/thumbnail-4.webp"> <!-- img element is also a void element -->
+                        <div class="video-time">
+                            40:13
+                        </div>
+                    </div>
+                    <div class="channel-info">
+                        <div class="channel-pictures">
+                            <img class="profile-pics" src="Chanel Profile Pics/profile-4.jpg" alt="">
+                        </div>
+                        <div class="channel-description">
+                            <p class="video-title">
+                                Is Gujarat model a Miracle or a Disaster? : Indian Governance case study.                    </p>
+                            <p class="video-author">
+                                Think School
+                            </p>
+                            <p class="video-views">
+                                2 lakh views
+                                &#183 15 hours ago       
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <img class="thumbnail" src="Thumbnails/thumbnail-5.webp"> <!-- img element is also a void element -->
+                        <div class="video-time">
+                            9:40
+                        </div>
+                    </div>
+                    <div class="channel-info">
+                        <div class="channel-pictures">
+                            <img class="profile-pics" src="Chanel Profile Pics/profile-5.jpg" alt="">
+                        </div>
+                        <div class="channel-description">
+                            <p class="video-title">
+                                A Galactic Misfire of Zack Snyder ⋮ REBEL MOON: PART ONE - A CHILD OF FIRE                    </p>
+                            <p class="video-author">
+                                PJ Explained
+                            </p>
+                            <p class="video-views">
+                                6.9K views &#183 18 minutes ago
+                            </p>
+                        </div>
+                    </div>
+                </div>
+        
+        
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <img class="thumbnail" src="Thumbnails/thumbnail-6.webp"> <!-- img element is also a void element -->
+                        <div class="video-time">
+                            15:45
+                        </div>
+                    </div>
+                    <div class="channel-info">
+                        <div class="channel-pictures">
+                            <img class="profile-pics" src="Chanel Profile Pics/profile-6.jpg" alt="">
+                        </div>
+                        <div class="channel-description">
+                            <p class="video-title">
+                                All Smartphone Brands Review in India - 2023 Reality!                    </p>
+                            <p class="video-author">
+                                Gyan Therapy
+                            </p>
+                            <p class="video-views">
+                                2.6 lakh views &#183 14 hours ago
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <img class="thumbnail" src="Thumbnails/thumbnail-7.webp"> <!-- img element is also a void element -->
+                        <div class="video-time">
+                            12:00
+                        </div>
+                    </div>
+                    <div class="channel-info">
+                        <div class="channel-pictures">
+                            <img class="profile-pics" src="Chanel Profile Pics/profile-7.jpg" alt="">
+                        </div>
+                        <div class="channel-description">
+                            <p class="video-title">
+                                Is it normal to talk to yourself?                    </p>
+                            <p class="video-author">
+                                TED-Ed
+                            </p>
+                            <p class="video-views">
+                                37 lakh views &#183 7 months ago
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <img class="thumbnail" src="Thumbnails/thumbnail-8.webp"> <!-- img element is also a void element -->
+                        <div class="video-time">
+                            30:04
+                        </div>
+                    </div>
+                    <div class="channel-info">
+                        <div class="channel-pictures">
+                            <img class="profile-pics" src="Chanel Profile Pics/profile-8.jpg" alt="">
+                        </div>
+                        <div class="channel-description">
+                            <p class="video-title">
+                                Lucky Block Staff - Animation vs. Minecraft Shorts Ep 33                    </p>
+                            <p class="video-author">
+                                Alan Becker       
+                            </p>
+                            <p class="video-views">
+                                49 lakh views &#183 1 day ago
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <img class="thumbnail" src="Thumbnails/thumbnail-9.webp"> <!-- img element is also a void element -->
+                        <div class="video-time">
+                            12:09
+                        </div>
+                    </div>
+                    <div class="channel-info">
+                        <div class="channel-pictures">
+                            <img class="profile-pics" src="Chanel Profile Pics/profile-9.jpg" alt="">
+                        </div>
+                        <div class="channel-description">
+                            <p class="video-title">
+                                Cooking Challenge vs My Girlfriend                    </p>
+                            <p class="video-author">
+                                Nick DiGiovanni
+                            </p>
+                            <p class="video-views">
+                                54 lakh views &#183 6 months ago
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <img class="thumbnail" src="Thumbnails/thumbnail-1.webp"> <!-- img element is also a void element -->
+                        <div class="video-time">
+                            6:11:25
+                        </div>
+                    </div>
+                    <div class="channel-info">
+                        <div class="channel-pictures">
+                            <img class="profile-pics" src="Chanel Profile Pics/profile-1.jpg" alt="">
+                        </div>
+                        <div class="channel-description">
+                            <p class="video-title">
+                                HTML & CSS Full Course - Beginner to Pro
+                            </p>
+                            <p class="video-author">
+                                SuperSimpleDev
+                            </p>
+                            <p class="video-views">
+                                77 lakh views &#183 1 year ago
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <img class="thumbnail" src="Thumbnails/thumbnail-2.webp"> <!-- img element is also a void element -->
+                        <div class="video-time">
+                            11:30
+                        </div>
+                    </div>
+                    <div class="channel-info">
+                        <div class="channel-pictures">
+                            <img class="profile-pics" src="Chanel Profile Pics/profile-2.jpg" alt="">
+                        </div>
+                        <div class="channel-description">
+                            <p class="video-title">
+                                I Spent 24 Hours In A Doomsday Bunker
+                            </p>
+                            <p class="video-author">
+                                MrBeast
+                            </p>
+                            <p class="video-views">
+                                19 crore views &#183
+                                3 years ago
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <img class="thumbnail" src="Thumbnails/thumbnail-3.webp"> <!-- img element is also a void element -->
+                        <div class="video-time">
+                            17:56
+                        </div>
+                    </div>
+                    <div class="channel-info">
+                        <div class="channel-pictures">
+                            <img class="profile-pics" src="Chanel Profile Pics/profile-3.jpg" alt="">
+                        </div>
+                        <div class="channel-description">
+                            <p class="video-title">
+                                Laptop Buying Experience At Offline Store Ft. Dehradun
+                            </p>
+                            <p class="video-author">
+                                VenomsTech
+                            </p>
+                            <p class="video-views">
+                                7K views &#183 2 hours ago
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <img class="thumbnail" src="Thumbnails/thumbnail-4.webp"> <!-- img element is also a void element -->
+                        <div class="video-time">
+                            40:13
+                        </div>
+                    </div>
+                    <div class="channel-info">
+                        <div class="channel-pictures">
+                            <img class="profile-pics" src="Chanel Profile Pics/profile-4.jpg" alt="">
+                        </div>
+                        <div class="channel-description">
+                            <p class="video-title">
+                                Is Gujarat model a Miracle or a Disaster? : Indian Governance case study.                    </p>
+                            <p class="video-author">
+                                Think School
+                            </p>
+                            <p class="video-views">
+                                2 lakh views
+                                &#183 15 hours ago
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <img class="thumbnail" src="Thumbnails/thumbnail-5.webp"> <!-- img element is also a void element -->
+                        <div class="video-time">
+                            9:40
+                        </div>
+                    </div>
+                    <div class="channel-info">
+                        <div class="channel-pictures">
+                            <img class="profile-pics" src="Chanel Profile Pics/profile-5.jpg" alt="">
+                        </div>
+                        <div class="channel-description">
+                            <p class="video-title">
+                                A Galactic Misfire of Zack Snyder ⋮ REBEL MOON: PART ONE - A CHILD OF FIRE                    </p>
+                            <p class="video-author">
+                                PJ Explained
+                            </p>
+                            <p class="video-views">
+                                6.9K views &#183 18 minutes ago
+                            </p>
+                        </div>
+                    </div>
+                </div>
+        
+        
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <img class="thumbnail" src="Thumbnails/thumbnail-6.webp"> <!-- img element is also a void element -->
+                        <div class="video-time">
+                            15:45
+                        </div>
+                    </div>
+                    <div class="channel-info">
+                        <div class="channel-pictures">
+                            <img class="profile-pics" src="Chanel Profile Pics/profile-6.jpg" alt="">
+                        </div>
+                        <div class="channel-description">
+                            <p class="video-title">
+                                All Smartphone Brands Review in India - 2023 Reality!                    </p>
+                            <p class="video-author">
+                                Gyan Therapy
+                            </p>
+                            <p class="video-views">
+                                2.6 lakh views &#183 14 hours ago
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <img class="thumbnail" src="Thumbnails/thumbnail-7.webp"> <!-- img element is also a void element -->
+                        <div class="video-time">
+                            12:00
+                        </div>
+                    </div>
+                    <div class="channel-info">
+                        <div class="channel-pictures">
+                            <img class="profile-pics" src="Chanel Profile Pics/profile-7.jpg" alt="">
+                        </div>
+                        <div class="channel-description">
+                            <p class="video-title">
+                                Is it normal to talk to yourself?                    </p>
+                            <p class="video-author">
+                                TED-Ed
+                            </p>
+                            <p class="video-views">
+                                37 lakh views &#183 7 months ago
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <img class="thumbnail" src="Thumbnails/thumbnail-8.webp"> <!-- img element is also a void element -->
+                        <div class="video-time">
+                            30:04
+                        </div>
+                    </div>
+                    <div class="channel-info">
+                        <div class="channel-pictures">
+                            <img class="profile-pics" src="Chanel Profile Pics/profile-8.jpg" alt="">
+                        </div>
+                        <div class="channel-description">
+                            <p class="video-title">
+                                Lucky Block Staff - Animation vs. Minecraft Shorts Ep 33                    </p>
+                            <p class="video-author">
+                                Alan Becker
+
+                            </p>
+                            <p class="video-views">
+                                49 lakh views &#183 1 day ago
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <img class="thumbnail" src="Thumbnails/thumbnail-9.webp"> <!-- img element is also a void element -->
+                        <div class="video-time">
+                            12:09
+                        </div>
+                    </div>
+                    <div class="channel-info">
+                        <div class="channel-pictures">
+                            <img class="profile-pics" src="Chanel Profile Pics/profile-9.jpg" alt="">
+                        </div>
+                        <div class="channel-description">
+                            <p class="video-title">
+                                Cooking Challenge vs My Girlfriend                    </p>
+                            <p class="video-author">
+                                Nick DiGiovanni
+                            </p>
+                            <p class="video-views">
+                                54 lakh views &#183 6 months ago
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </body>
+</html>
